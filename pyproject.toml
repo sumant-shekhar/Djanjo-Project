@@ -1,0 +1,19 @@
+[project]
+name = "djanjo-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "celery>=5.6.3",
+    "django>=5.2.14",
+    "django-cors-headers>=4.9.0",
+    "django-environ>=0.13.0",
+    "django-redis>=6.0.0",
+    "djangorestframework>=3.17.1",
+    "gunicorn>=26.0.0",
+    "pillow>=12.2.0",
+    "psycopg[binary]>=3.3.4",
+    "redis>=7.4.0",
+    "whitenoise>=6.12.0",
+]
